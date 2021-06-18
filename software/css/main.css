@@ -1,8 +1,6 @@
 body {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    font-family: "AD-M";
+  margin: 0 auto;
+  padding: 0;
   }
   
   main {
@@ -10,8 +8,7 @@ body {
     width: 1490px;
     height: 900px; */
     border: solid #ffd800 4px;
-    margin-top: 30px;
-    margin-right: 70px;
+
   }
   
   nav {
@@ -23,16 +20,16 @@ body {
   
   
 .nav-btn {
-    display: flex;
+  display: flex;
+  flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 100px;
-    color: #ffd800;
-    font-family: "AD-SB";
-    font-size: 22px;
-    border-bottom: solid #ffd800 4px;
+    color: #000000;
+  /* border-bottom: solid #ffd800 2px; */
     cursor: pointer;
+    border-radius: 15px;
   }
   
   .nav-btn:hover {
@@ -41,16 +38,21 @@ body {
 
 
 .grade1{
-    border: solid
+    border: solid #333;
 }
 .grade2{
-      
+  border: solid #707070;
 }
 .grade3{
-      
+      border: solid mediumaquamarine;
 }
   .topbar{
       margin: 50px;
       justify-content: center;
       border: solid #333;
   }
+
+.grade-container {
+  margin: 0 auto;
+  height: 130px;
+}
